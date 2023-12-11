@@ -4,6 +4,8 @@ op=str(input("operacion"))
 if op=="suma":
     r=n1+n2
     print(r)
+    if r>20:
+        print("grande")
 if op=="resta":
     r=n1-n2
     print(r)
